@@ -21,10 +21,10 @@
                 top: 10px;
                 left: 55px;
                 font-size: 2em;
-                font-family: "Lora", serif;
+                font-family: sans-serif;
                 letter-spacing: .04em;
                 padding: 10px 15px;
-                background-color: rgba(255, 255, 255, 0.5);
+                background-color: rgba(70, 21, 133, 0.5);
                 border: 1px solid grey;
                 border-radius: 3px;
                 z-index: 800;
@@ -42,7 +42,7 @@
             #description {
                 position: fixed;
                 bottom: 20px;
-                left: 10px;
+                left: 55px;
                 width: 280px;
                 padding: 0px 15px;
                 background-color: rgba(255, 255, 255, 0.7);
@@ -61,6 +61,11 @@
             #description a:hover {
                 text-decoration: underline;
             }
+            .note{
+                font-family: "Lora", serif;
+                font-size: .8em;
+                font-style: italic;
+            }
         </style>
     </head>
     <body>
@@ -74,7 +79,7 @@
                     <li>How has the water level differed from year to year?</li>
                     <li>National Park Service Storie Lake Boundary</li> 
                 </ul>
-            <p>The placement and styling of the title and description boxes is done using CSS. 
+            <p class="note">The placement and styling of the title and description boxes is done using CSS. 
                 Check out the source code of this page to see how.</p>
             <p>Map authored by: Marigold Hernandez/p>
         </div>
